@@ -9,6 +9,7 @@
     "start": "./scripts/docs-dev.sh",
     "sync-docs": "./scripts/docs-sync.sh",
     "build-docs": "./scripts/docs-build.sh",
+    "build-css": "./scripts/compile-scss.sh",
     "build": "./scripts/compile.sh",
     "lint": "./scripts/lint.sh",
     "lint-fix": "./scripts/lint-fix.sh",
@@ -19,6 +20,9 @@
     "release": "./scripts/release.sh"
   },
   "dependencies": {
+    "babel-plugin-inline-react-svg": "0.5.2",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
     "brace": "0.10.0",
     "classnames": "2.2.5",
     "core-js": "2.5.1",
@@ -91,6 +95,7 @@
     "yo": "2.0.0"
   },
   "peerDependencies": {
-    "react": "^16.0.0-rc || ^16.0"
+    "react": "^16.0.0-rc || ^16.0",
+    "babel-plugin-inline-react-svg": "0.x"
   }
 }

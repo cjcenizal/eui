@@ -3,6 +3,7 @@ node_modules/
 reports/
 tmp/
 dist/
+!dist/*.css
 lib/
 .DS_Store
 .eslintcache
